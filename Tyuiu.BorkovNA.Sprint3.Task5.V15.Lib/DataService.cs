@@ -19,7 +19,7 @@ namespace Tyuiu.BorkovNA.Sprint3.Task5.V15.Lib
                 sum = 0;
                 k = 1;
             }
-            return esum;
+            return Math.Round(esum);
         }
     }
 }
