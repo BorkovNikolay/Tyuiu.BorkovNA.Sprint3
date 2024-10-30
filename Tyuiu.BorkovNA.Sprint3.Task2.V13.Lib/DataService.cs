@@ -6,12 +6,15 @@ namespace Tyuiu.BorkovNA.Sprint3.Task2.V13.Lib
     {
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
+
+
+
             double sum = 0;
-            while (startValue < stopValue)
+            do
             {
-                sum += (Math.Pow(value, startValue)+(2/(startValue+1)))*Math.Sin(value);
+                sum += (Math.Pow(value, startValue) + (2.0 / (startValue + 1.0))) * Math.Sin(value);
                 startValue++;
-            }
+            } while (startValue <= stopValue);
             return Math.Round(sum, 3);
         }
     }
