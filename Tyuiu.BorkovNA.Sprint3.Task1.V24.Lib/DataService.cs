@@ -10,7 +10,7 @@ namespace Tyuiu.BorkovNA.Sprint3.Task1.V24.Lib
             while (startValue < stopValue)
             {
                 sum += Math.Pow(2 / ( 6 + Math.Pow(value, startValue)), startValue);
-                stopValue++;
+                startValue++;
             }
             return Math.Round(sum, 3);
         }

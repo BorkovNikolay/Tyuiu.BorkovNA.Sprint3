@@ -9,7 +9,7 @@ namespace Tyuiu.BorkovNA.Sprint3.Task1.V24.Test
         public void TestMethod1()
         {
             DataService ds = new();
-            Assert.AreEqual(390451579.586, ds.GetSumSeries(5, 1, 12));
+            Assert.AreEqual(0.186, ds.GetSumSeries(5, 1, 12));
         }
     }
 }
